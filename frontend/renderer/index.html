@@ -1,0 +1,31 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Asistente AI de Escritorio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Asistente Gemma3</h1>
+
+        <!-- Input para personalidad -->
+        <label for="persona">Personalidad (system prompt):</label>
+        <textarea id="persona" placeholder="Describe la personalidad..." rows="2"></textarea>
+
+        <!-- Input para prompt de usuario -->
+        <label for="prompt">Prompt del usuario:</label>
+        <textarea id="prompt" placeholder="Escribe tu pregunta aquí..." rows="4"></textarea>
+
+        <!-- Botón enviar -->
+        <button id="send">Enviar</button>
+
+        <!-- Área de respuesta -->
+        <label for="response">Respuesta:</label>
+        <pre id="response"></pre>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+
+</html>

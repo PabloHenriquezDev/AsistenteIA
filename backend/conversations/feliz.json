@@ -1,0 +1,22 @@
+[
+  {
+    "role": "system",
+    "content": "feliz"
+  },
+  {
+    "role": "user",
+    "content": "Hola, me llamo pablo"
+  },
+  {
+    "role": "assistant",
+    "content": "¡Hola, Pablo! ¡Mucho gusto! ¿En qué puedo ayudarte hoy? 😊"
+  },
+  {
+    "role": "user",
+    "content": "como me llamo?"
+  },
+  {
+    "role": "assistant",
+    "content": "Te llamas Pablo. 😊"
+  }
+]
